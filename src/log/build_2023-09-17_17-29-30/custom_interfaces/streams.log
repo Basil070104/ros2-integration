@@ -1,0 +1,257 @@
+[0.021s] Invoking command in '/home/bkhwaja/vscode/ros2_ws/src/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller:/opt/ros/humble /home/bkhwaja/.local/bin/cmake /home/bkhwaja/vscode/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces
+[0.046s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.204s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.614s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.616s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.622s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.648s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.717s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.748s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.050s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.543s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.732s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.735s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.735s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.735s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.735s]   the cmake_policy command to set the policy and suppress this warning.
+[1.735s] 
+[1.735s] Call Stack (most recent call first):
+[1.735s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.735s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.735s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.735s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.735s] [0m
+[2.316s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.325s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.327s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[2.327s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.327s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.327s]   the cmake_policy command to set the policy and suppress this warning.
+[2.327s] 
+[2.327s] Call Stack (most recent call first):
+[2.327s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.327s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.327s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.327s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[2.327s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.327s] [0m
+[2.344s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[2.344s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.344s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.344s]   the cmake_policy command to set the policy and suppress this warning.
+[2.344s] 
+[2.344s] Call Stack (most recent call first):
+[2.344s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.344s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.345s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.345s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[2.345s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.345s] [0m
+[4.065s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[4.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.065s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.065s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.085s] -- Found PythonExtra: .so  
+[4.315s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.346s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.347s] -- Added test 'lint_cmake' to check CMake code style
+[4.347s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.349s] -- Added test 'xmllint' to check XML markup files
+[4.353s] -- Configuring done (4.3s)
+[4.385s] -- Generating done (0.0s)
+[4.387s] -- Build files have been written to: /home/bkhwaja/vscode/ros2_ws/src/build/custom_interfaces
+[4.396s] Invoked command in '/home/bkhwaja/vscode/ros2_ws/src/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller:/opt/ros/humble /home/bkhwaja/.local/bin/cmake /home/bkhwaja/vscode/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces
+[4.397s] Invoking command in '/home/bkhwaja/vscode/ros2_ws/src/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller:/opt/ros/humble /home/bkhwaja/.local/bin/cmake --build /home/bkhwaja/vscode/ros2_ws/src/build/custom_interfaces -- -j12 -l12
+[4.428s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.430s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.432s] [  6%] Built target ament_cmake_python_copy_custom_interfaces
+[4.655s] running egg_info
+[4.656s] creating custom_interfaces.egg-info
+[4.657s] writing custom_interfaces.egg-info/PKG-INFO
+[4.658s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[4.658s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[4.659s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[4.665s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[4.666s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[4.692s] [  6%] Built target ament_cmake_python_build_custom_interfaces_egg
+[4.809s] [  6%] Built target custom_interfaces__cpp
+[4.814s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.815s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.815s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.837s] [ 19%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/action/detail/fibionnaci__functions.c.o[0m
+[5.023s] [ 22%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[5.156s] [ 25%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/action/fibionnaci__type_support.cpp.o[0m
+[5.221s] [ 25%] Built target custom_interfaces__rosidl_generator_c
+[5.227s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.228s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.228s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.263s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/action/detail/fibionnaci__type_support.cpp.o[0m
+[5.319s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/fibionnaci__type_support.cpp.o[0m
+[5.726s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/action/fibionnaci__type_support.cpp.o[0m
+[5.825s] [ 48%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/fibionnaci__type_support.c.o[0m
+[5.831s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/action/detail/fibionnaci__type_support_c.cpp.o[0m
+[5.833s] [ 54%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[5.889s] [ 58%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.048s] [ 61%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[6.096s] [ 61%] Built target custom_interfaces__rosidl_typesupport_c
+[6.132s] [ 61%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[6.293s] [ 64%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.295s] [ 67%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.300s] [ 67%] Built target custom_interfaces__rosidl_typesupport_cpp
+[6.309s] [ 70%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.560s] [ 70%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[6.571s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[6.646s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.653s] [ 70%] Built target custom_interfaces
+[6.659s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.139s] [ 74%] Built target custom_interfaces__py
+[7.145s] [ 77%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/action/_fibionnaci_s.c.o[0m
+[7.260s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[7.562s] [ 80%] Built target custom_interfaces__rosidl_generator_py
+[7.570s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.570s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.570s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.662s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.665s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.671s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.897s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[7.900s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.905s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.914s] Invoked command in '/home/bkhwaja/vscode/ros2_ws/src/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller:/opt/ros/humble /home/bkhwaja/.local/bin/cmake --build /home/bkhwaja/vscode/ros2_ws/src/build/custom_interfaces -- -j12 -l12
+[7.989s] Invoking command in '/home/bkhwaja/vscode/ros2_ws/src/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller:/opt/ros/humble /home/bkhwaja/.local/bin/cmake --install /home/bkhwaja/vscode/ros2_ws/src/build/custom_interfaces
+[8.009s] -- Install configuration: ""
+[8.009s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[8.010s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.010s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.010s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.010s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[8.011s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/fibionnaci.h
+[8.011s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[8.011s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/fibionnaci__struct.h
+[8.011s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/fibionnaci__functions.h
+[8.011s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/fibionnaci__functions.c
+[8.011s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/fibionnaci__type_support.h
+[8.011s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[8.011s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[8.011s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[8.012s] -- Set runtime path of "/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[8.012s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.012s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.012s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.012s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[8.012s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[8.012s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/fibionnaci__rosidl_typesupport_fastrtps_c.h
+[8.012s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.012s] -- Set runtime path of "/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.012s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.013s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[8.013s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/fibionnaci.hpp
+[8.013s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[8.013s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/fibionnaci__traits.hpp
+[8.013s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/fibionnaci__struct.hpp
+[8.013s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/fibionnaci__builder.hpp
+[8.013s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.013s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.013s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.014s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[8.014s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[8.014s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/dds_fastrtps
+[8.014s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/fibionnaci__rosidl_typesupport_fastrtps_cpp.hpp
+[8.014s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.015s] -- Set runtime path of "/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.015s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.015s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.015s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.015s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[8.015s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[8.015s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/fibionnaci__type_support.c
+[8.015s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/fibionnaci__rosidl_typesupport_introspection_c.h
+[8.015s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[8.015s] -- Set runtime path of "/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.015s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[8.016s] -- Set runtime path of "/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[8.016s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.016s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[8.016s] -- Up-to-date: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[8.016s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/fibionnaci__type_support.cpp
+[8.016s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/fibionnaci__rosidl_typesupport_introspection_cpp.hpp
+[8.016s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.016s] -- Set runtime path of "/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.016s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[8.016s] -- Set runtime path of "/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.016s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[8.016s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[8.016s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[8.017s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[8.017s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.017s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.018s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[8.018s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[8.018s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.018s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[8.018s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.018s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[8.018s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.018s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.019s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.019s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[8.019s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action
+[8.019s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_fibionnaci.py
+[8.019s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py
+[8.019s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_fibionnaci_s.c
+[8.047s] Listing '/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[8.047s] Compiling '/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[8.047s] Listing '/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action'...
+[8.047s] Compiling '/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py'...
+[8.047s] Compiling '/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_fibionnaci.py'...
+[8.051s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.051s] -- Set runtime path of "/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.051s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.051s] -- Set runtime path of "/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.052s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.052s] -- Set runtime path of "/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.052s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[8.052s] -- Set runtime path of "/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[8.053s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/action/Fibionnaci.idl
+[8.053s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/action/Fibionnaci.action
+[8.053s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[8.053s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[8.053s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[8.054s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[8.054s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[8.054s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[8.054s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[8.054s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[8.054s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[8.055s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[8.055s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/package.dsv
+[8.055s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[8.055s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[8.055s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.056s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.057s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.057s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[8.057s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[8.057s] -- Installing: /home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces/share/custom_interfaces/package.xml
+[8.060s] Invoked command in '/home/bkhwaja/vscode/ros2_ws/src/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller:/opt/ros/humble /home/bkhwaja/.local/bin/cmake --install /home/bkhwaja/vscode/ros2_ws/src/build/custom_interfaces

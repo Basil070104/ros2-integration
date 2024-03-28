@@ -1,0 +1,52 @@
+[0.498s] Invoking command in '/home/bkhwaja/vscode/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/prefix_override:/home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build install --record /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed
+[0.681s] running egg_info
+[0.681s] creating ../build/my_robot_controller/my_robot_controller.egg-info
+[0.682s] writing ../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.683s] writing dependency_links to ../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.683s] writing entry points to ../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[0.683s] writing requirements to ../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.684s] writing top-level names to ../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.684s] writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.685s] reading manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.686s] writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.686s] running build
+[0.686s] running build_py
+[0.686s] creating /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build
+[0.687s] creating /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib
+[0.687s] creating /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[0.687s] copying my_robot_controller/draw_circle.py -> /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[0.687s] copying my_robot_controller/pose_subscriber.py -> /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[0.687s] copying my_robot_controller/turtle_controller.py -> /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[0.687s] copying my_robot_controller/fibionacci_action_server.py -> /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[0.687s] copying my_robot_controller/my_first_node.py -> /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[0.687s] copying my_robot_controller/__init__.py -> /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[0.688s] running install
+[0.688s] running install_lib
+[0.688s] creating /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.688s] copying /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.688s] copying /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/pose_subscriber.py -> /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.689s] copying /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/turtle_controller.py -> /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.689s] copying /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/fibionacci_action_server.py -> /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.689s] copying /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.689s] copying /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.690s] byte-compiling /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[0.690s] byte-compiling /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[0.690s] byte-compiling /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.691s] byte-compiling /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/fibionacci_action_server.py to fibionacci_action_server.cpython-310.pyc
+[0.691s] byte-compiling /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[0.691s] byte-compiling /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[0.691s] running install_data
+[0.692s] creating /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/share/ament_index
+[0.693s] creating /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index
+[0.693s] creating /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.693s] copying resource/my_robot_controller -> /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.693s] copying package.xml -> /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/share/my_robot_controller
+[0.693s] running install_egg_info
+[0.695s] Copying ../build/my_robot_controller/my_robot_controller.egg-info to /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[0.695s] running install_scripts
+[0.715s] Installing draw_circle script to /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.715s] Installing pose_subscriber script to /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.716s] Installing test_node script to /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.716s] Installing turtle_controller script to /home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[0.716s] writing list of installed files to '/home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/install.log'
+[0.740s] Invoked command in '/home/bkhwaja/vscode/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/prefix_override:/home/bkhwaja/vscode/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/build install --record /home/bkhwaja/vscode/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed

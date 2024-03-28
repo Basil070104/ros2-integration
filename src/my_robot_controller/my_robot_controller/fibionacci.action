@@ -1,0 +1,15 @@
+#This where actions are defined
+
+# Request
+---
+# Result
+---
+# Feedback
+
+#This the type of parameter for the action
+
+int32 order
+---
+int32[] sequence
+---
+int32[] partial_sequence

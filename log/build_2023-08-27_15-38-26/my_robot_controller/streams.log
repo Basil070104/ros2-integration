@@ -1,0 +1,31 @@
+[0.872s] Invoking command in '/home/bkhwaja/vscode/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/prefix_override:/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/build
+[1.231s] running develop
+[1.527s] Invoked command in '/home/bkhwaja/vscode/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/prefix_override:/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/build
+[1.532s] Invoking command in '/home/bkhwaja/vscode/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/prefix_override:/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/build install --record /home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed
+[1.879s] running egg_info
+[1.881s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.882s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.883s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.883s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.884s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.888s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.889s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.889s] running build
+[1.890s] running build_py
+[1.890s] copying my_robot_controller/turtle_controller.py -> /home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.891s] running install
+[1.891s] running install_lib
+[1.892s] copying /home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/turtle_controller.py -> /home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.894s] byte-compiling /home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_controller.py to turtle_controller.cpython-310.pyc
+[1.896s] running install_data
+[1.897s] copying package.xml -> /home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[1.898s] running install_egg_info
+[1.901s] removing '/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.902s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[1.905s] running install_scripts
+[1.939s] Installing draw_circle script to /home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.940s] Installing pose_subscriber script to /home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.940s] Installing test_node script to /home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.940s] Installing turtle_controller script to /home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.941s] writing list of installed files to '/home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/install.log'
+[1.982s] Invoked command in '/home/bkhwaja/vscode/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/prefix_override:/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/build install --record /home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed

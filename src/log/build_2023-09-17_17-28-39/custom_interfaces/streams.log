@@ -1,0 +1,20 @@
+[0.020s] Invoking command in '/home/bkhwaja/vscode/ros2_ws/src/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller:/opt/ros/humble /home/bkhwaja/.local/bin/cmake /home/bkhwaja/vscode/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces
+[0.045s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.208s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.625s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.628s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.633s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.656s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.724s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.751s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.947s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.947s]   Packages installing interfaces must include
+[0.947s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.947s]   package.xml
+[0.947s] Call Stack (most recent call first):
+[0.947s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.947s] 
+[0.947s] [0m
+[0.948s] -- Configuring incomplete, errors occurred!
+[0.957s] Invoked command in '/home/bkhwaja/vscode/ros2_ws/src/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller:/opt/ros/humble /home/bkhwaja/.local/bin/cmake /home/bkhwaja/vscode/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/bkhwaja/vscode/ros2_ws/src/install/custom_interfaces

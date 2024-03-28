@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interfaces/action/Fibionnaci.action
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module action {
+    struct Fibionnaci_Goal {
+      @verbatim (language="comment", text=
+        "Goal")
+      int32 order;
+    };
+    @verbatim (language="comment", text=
+      "Return")
+    struct Fibionnaci_Result {
+      sequence<int32> sequence;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Fibionnaci_Feedback {
+      sequence<int32> partial_sequence;
+    };
+  };
+};

@@ -1,0 +1,19 @@
+[0.447s] Invoking command in '/home/bkhwaja/vscode/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/prefix_override:/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/build --no-deps install_data
+[0.633s] running develop
+[0.729s] running egg_info
+[0.729s] writing my_robot_controller.egg-info/PKG-INFO
+[0.729s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[0.730s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[0.730s] writing requirements to my_robot_controller.egg-info/requires.txt
+[0.731s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[0.733s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.733s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.735s] running build_ext
+[0.735s] Creating /home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[0.735s] Installing draw_circle script to /home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.736s] Installing pose_subscriber script to /home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.736s] Installing test_node script to /home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.737s] 
+[0.737s] Installed /home/bkhwaja/vscode/ros2_ws/build/my_robot_controller
+[0.737s] running install_data
+[0.764s] Invoked command in '/home/bkhwaja/vscode/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/prefix_override:/home/bkhwaja/vscode/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/bkhwaja/vscode/ros2_ws/build/my_robot_controller/build --no-deps install_data
